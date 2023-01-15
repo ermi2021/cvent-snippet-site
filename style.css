@@ -1,5 +1,5 @@
 body{
-    background-color: #162B22;
+    background-color: #1C315E;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,15 +16,17 @@ body{
   }
 .header{
     font-size: 60px;
-    color: #4e9f3d;
+    color: #82AAE3;
     text-align: center;
     font-family: latoBold;
 }
 .subheader{
     font-size: 28px;
-    color: #a1b57d;;
+    color: #91D8E4;;
     text-align: center;
     font-family: latoRegular;
+   
+    margin-top: -10px;
 }
 .matiximg{
     width:100%;
@@ -46,11 +48,12 @@ body{
 .footerText{
     font-family: latoRegular;
     font-size: 18px;
-    color: azure;
-    padding: 10px;
-    background-color: #446450;
+    color: black;
+    padding: 20px;
+    background-color: #91D8E4;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 3%;
     -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
@@ -70,6 +73,12 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.madeBy{
+  font-family:cursive;
+    font-size: 22px;
+    color: #82AAE3;
+    text-align: center;
 }
 
 @-webkit-keyframes scale-up-center {

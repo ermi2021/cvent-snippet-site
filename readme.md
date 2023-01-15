@@ -1,1 +1,1 @@
-Site for my matrix theme for VS code
+Site for my cvent snippet extension for VS code
